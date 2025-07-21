@@ -19,5 +19,5 @@ function calculateWeight() {
     const factor = gravityFactors[planet];
     const newWeight = earthweight * factor;
 
-    resultDiv.textContent = `Your weight on ${planet.charAt(0).toUpperCase() + planet.slice(1)} would be approximately ${newWeight.toFixed(2)}kg.`;
+    resultDiv.textContent = `Your weight on ${planet.charAt(0).toUpperCase() + planet.slice(1)} would be approximately ${newWeight.toFixed(2)}kg!`;
 }
