@@ -1,0 +1,72 @@
+body {
+    background-color: #FFF4F1;
+    } 
+    
+    table {
+    background-color: #FFF4F1;
+      margin: 50px auto
+    }
+
+    h1 {
+    color: #FFF4F1;
+    font-family: Didot, sans-serif;
+    font-size: 40px;
+    }
+
+    h2{
+      display: inline;
+      font-family: Merriweather, serif;
+    }
+
+    h2.page {
+      text-decoration: none; 
+      color: #264653; 
+      font-family: monospace; 
+      font-size:30px;}
+
+    h3{
+      font-family: monospace;
+      font-size: 18px;
+    }
+
+    TH {
+      text-indent: 0px;
+      font-family: Verdana, sans-serif;
+      font-weight: normal;
+    }
+
+    .calculate {
+      margin:auto;
+    }
+
+    .calculate label, 
+    .calculate input, 
+    .calculate select, 
+    .calculate button, 
+    .calculate #result {
+      display: block;
+      margin: auto;
+      padding: 10px;
+      
+    }
+
+    .calculate input, 
+    .calculate select, 
+    .calculate button {
+      padding: 5px;
+      font-size: 14px;
+    }
+
+    .calculate button {
+      background: #2A9D8F;
+      border: 2px black;
+      cursor: pointer;
+    }
+    
+    a.menu:link { text-decoration: none; color: black; }
+    a.menu:visited { text-decoration: none; color: black;}
+    a.menu:hover { text-decoration: none; color: #264653; font-family: monospace; font-size:30px; }
+
+    a.study:link { text-decoration: underline; color: black; }
+    a.study:visited { text-decoration: underline; color: #264653;}
+    a.study:hover { text-decoration: underline; color: #2A9D8F; font-weight: bolder; }
